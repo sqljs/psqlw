@@ -1,0 +1,7 @@
+{
+  "name": "@sqljs/ws-server",
+  "version": "0.1.0",
+  "description": "server for psql like cli interface which can be used to connect to your PostgreSQL database",
+  "main": "index.js",
+  "license": "MIT"
+}

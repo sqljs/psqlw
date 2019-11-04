@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "incremental": true
+  },
+  "files": [],
+  "include": [],
+  "references": [
+    // { "path": "./graphql-handler/src/__tests__/" },
+    // { "path": "./rollup-plugin-graphql-ts/src/__tests__/" },
+    // { "path": "./rollup-plugin-secrets-store/src/__tests__/" },
+    // { "path": "./service-host-dev/src/__tests__/" },
+    // { "path": "./service-host-lambda/src/__tests__/" },
+    // { "path": "./service-host/src/__tests__/" },
+    { "path": "./service-interop/src/__tests__/" }
+    // { "path": "./simple-router/src/__tests__/" }
+  ]
+}

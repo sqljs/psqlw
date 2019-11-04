@@ -1,0 +1,27 @@
+{
+  "name": "pgsqlw",
+  "description": "web interface which can be used to connect to your PostgreSQL database",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "repository": "https://github.com/sqljs/psqlw",
+  "author": "Pavel Lang <langpavel@phpskelet.org>",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "lint-staged": "^9.4.2",
+    "prettier": "^1.18.2",
+    "ts-jest": "^24.1.0",
+    "typescript": "^3.6.4"
+  },
+  "scripts": {
+    "clean": "tsc -b --clean",
+    "build": "tsc -b",
+    "rebuild": "yarn run clean && yarn run build",
+    "check-style": "prettier --check '**/*'",
+    "format": "prettier --write '**/*'",
+    "test": "jest",
+    "test:fresh": "jest --no-cache"
+  }
+}

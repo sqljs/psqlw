@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "incremental": true
+  },
+  "files": [],
+  "include": [],
+  "references": [{ "path": "./packages/tsconfig.build.json" }]
+}
