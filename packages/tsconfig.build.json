@@ -1,8 +1,9 @@
 {
   "compilerOptions": {
-    "composite": true
+    "composite": true,
+    "incremental": true
   },
   "files": [],
   "include": [],
-  "references": [{ "path": "./cli" }, { "path": "./ws-server" }]
+  "references": [{ "path": "./introspection" }, { "path": "./cli" }]
 }
